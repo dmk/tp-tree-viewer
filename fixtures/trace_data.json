@@ -1,0 +1,432 @@
+{
+  "version": "0.1.0",
+  "timestamp": "2025-06-21T22:14:12+0300",
+  "events": [
+    {
+      "event": "call_return",
+      "method_name": "initialize",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "name",
+          "value": "test"
+        }
+      ],
+      "return_value": "test",
+      "depth": 0,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 9,
+      "start_time": 1750533252.443805,
+      "end_time": 1750533252.4438112,
+      "duration": 6.0e-06
+    },
+    {
+      "event": "call",
+      "method_name": "complex_calculation",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "numbers",
+          "value": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "return_value": null,
+      "depth": 0,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 13,
+      "start_time": 1750533252.443818,
+      "end_time": 1750533252.497799,
+      "duration": 0.053981
+    },
+    {
+      "event": "call",
+      "method_name": "process_number",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "num",
+          "value": 1
+        }
+      ],
+      "return_value": null,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 23,
+      "start_time": 1750533252.443821,
+      "end_time": 1750533252.454189,
+      "duration": 0.010368
+    },
+    {
+      "event": "call_return",
+      "method_name": "square",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 1
+        }
+      ],
+      "return_value": 1,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 30,
+      "start_time": 1750533252.45418,
+      "end_time": 1750533252.4541829,
+      "duration": 3.0e-06
+    },
+    {
+      "event": "call_return",
+      "method_name": "double",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 1
+        }
+      ],
+      "return_value": 2,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 34,
+      "start_time": 1750533252.454186,
+      "end_time": 1750533252.454187,
+      "duration": 1.0e-06
+    },
+    {
+      "event": "return",
+      "method_name": "process_number",
+      "parameters": null,
+      "return_value": 2,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 28,
+      "start_time": 1750533252.443821,
+      "end_time": 1750533252.454189,
+      "duration": 0.010368
+    },
+    {
+      "event": "call",
+      "method_name": "process_number",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "num",
+          "value": 2
+        }
+      ],
+      "return_value": null,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 23,
+      "start_time": 1750533252.4541929,
+      "end_time": 1750533252.465215,
+      "duration": 0.011022
+    },
+    {
+      "event": "call_return",
+      "method_name": "square",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 2
+        }
+      ],
+      "return_value": 4,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 30,
+      "start_time": 1750533252.465209,
+      "end_time": 1750533252.4652102,
+      "duration": 1.0e-06
+    },
+    {
+      "event": "call_return",
+      "method_name": "double",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 4
+        }
+      ],
+      "return_value": 8,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 34,
+      "start_time": 1750533252.4652128,
+      "end_time": 1750533252.465214,
+      "duration": 1.0e-06
+    },
+    {
+      "event": "return",
+      "method_name": "process_number",
+      "parameters": null,
+      "return_value": 8,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 28,
+      "start_time": 1750533252.4541929,
+      "end_time": 1750533252.465215,
+      "duration": 0.011022
+    },
+    {
+      "event": "call",
+      "method_name": "process_number",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "num",
+          "value": 3
+        }
+      ],
+      "return_value": null,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 23,
+      "start_time": 1750533252.465218,
+      "end_time": 1750533252.4756548,
+      "duration": 0.010437
+    },
+    {
+      "event": "call_return",
+      "method_name": "square",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 3
+        }
+      ],
+      "return_value": 9,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 30,
+      "start_time": 1750533252.4756439,
+      "end_time": 1750533252.475648,
+      "duration": 4.0e-06
+    },
+    {
+      "event": "call_return",
+      "method_name": "double",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 9
+        }
+      ],
+      "return_value": 18,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 34,
+      "start_time": 1750533252.475652,
+      "end_time": 1750533252.4756532,
+      "duration": 1.0e-06
+    },
+    {
+      "event": "return",
+      "method_name": "process_number",
+      "parameters": null,
+      "return_value": 18,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 28,
+      "start_time": 1750533252.465218,
+      "end_time": 1750533252.4756548,
+      "duration": 0.010437
+    },
+    {
+      "event": "call",
+      "method_name": "process_number",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "num",
+          "value": 4
+        }
+      ],
+      "return_value": null,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 23,
+      "start_time": 1750533252.475658,
+      "end_time": 1750533252.4866838,
+      "duration": 0.011026
+    },
+    {
+      "event": "call_return",
+      "method_name": "square",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 4
+        }
+      ],
+      "return_value": 16,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 30,
+      "start_time": 1750533252.486676,
+      "end_time": 1750533252.4866781,
+      "duration": 2.0e-06
+    },
+    {
+      "event": "call_return",
+      "method_name": "double",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 16
+        }
+      ],
+      "return_value": 32,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 34,
+      "start_time": 1750533252.486681,
+      "end_time": 1750533252.4866822,
+      "duration": 1.0e-06
+    },
+    {
+      "event": "return",
+      "method_name": "process_number",
+      "parameters": null,
+      "return_value": 32,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 28,
+      "start_time": 1750533252.475658,
+      "end_time": 1750533252.4866838,
+      "duration": 0.011026
+    },
+    {
+      "event": "call",
+      "method_name": "process_number",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "num",
+          "value": 5
+        }
+      ],
+      "return_value": null,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 23,
+      "start_time": 1750533252.486686,
+      "end_time": 1750533252.497785,
+      "duration": 0.011099
+    },
+    {
+      "event": "call_return",
+      "method_name": "square",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 5
+        }
+      ],
+      "return_value": 25,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 30,
+      "start_time": 1750533252.4977632,
+      "end_time": 1750533252.497771,
+      "duration": 8.0e-06
+    },
+    {
+      "event": "call_return",
+      "method_name": "double",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "n",
+          "value": 25
+        }
+      ],
+      "return_value": 50,
+      "depth": 2,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 34,
+      "start_time": 1750533252.49778,
+      "end_time": 1750533252.497783,
+      "duration": 3.0e-06
+    },
+    {
+      "event": "return",
+      "method_name": "process_number",
+      "parameters": null,
+      "return_value": 50,
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 28,
+      "start_time": 1750533252.486686,
+      "end_time": 1750533252.497785,
+      "duration": 0.011099
+    },
+    {
+      "event": "call_return",
+      "method_name": "format_result",
+      "parameters": [
+        {
+          "type": "req",
+          "name": "result",
+          "value": 110
+        }
+      ],
+      "return_value": "Result: 110",
+      "depth": 1,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 38,
+      "start_time": 1750533252.497793,
+      "end_time": 1750533252.497797,
+      "duration": 4.0e-06
+    },
+    {
+      "event": "return",
+      "method_name": "complex_calculation",
+      "parameters": null,
+      "return_value": "Result: 110",
+      "depth": 0,
+      "defined_class": "TestClass",
+      "path": "frontend/test_integration.rb",
+      "lineno": 19,
+      "start_time": 1750533252.443818,
+      "end_time": 1750533252.497799,
+      "duration": 0.053981
+    }
+  ]
+}
